@@ -1,7 +1,7 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
-    if (!principal || (principal < 0)) {
+    if (!principal || (principal <= 0)) {
         // principal must always be a positive number
         alert("Enter a positive number");
         // set focus to principal input field and return
